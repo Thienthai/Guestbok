@@ -1,0 +1,5 @@
+Bundle-Name: Guestbook
+Bundle-SymbolicName: om.omb.guestbook
+Bundle-Version: 1.0.0
+Export-Package: om.omb.guestbook.constants
+Web-ContextPath: /Guestbook

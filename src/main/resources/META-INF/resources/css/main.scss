@@ -1,0 +1,199 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 35% 65%;
+  grid-gap: 70px;
+  padding: 10px; }
+
+h2 {
+  font-style: italic;
+  text-decoration: underline;
+  font-weight: 200;
+  color: #a39d9d; }
+
+h3 {
+  font-weight: 600; }
+
+#nameGuest {
+  display: grid;
+  grid-template-columns: 150px 400px 100px;
+  margin-top: 40px;
+  border-style: solid;
+  width: 640px;
+  border-width: 0px 0px 1px 0px;
+  border-color: #f8f5f5;
+  padding-bottom: 20px; }
+
+#nameGuest ul li {
+  margin-top: 12px; }
+
+#nameGuest ul li #name {
+  font-weight: bold;
+  font-size: 1.4em; }
+
+#nameGuest ul li #date {
+  font-weight: bold;
+  font-size: 1.2em;
+  margin-top: 1.3em; }
+
+#nameGuest ul li {
+  list-style-type: none; }
+
+#statement {
+  margin-left: 10px;
+  text-align: justify;
+  font-size: small; }
+
+#statement p {
+	background-color: #efeeee;
+    padding: 10px;
+    border-color: #dbdbda;
+    border-width: 1.6px;
+    border-radius: 2px;
+    border-style: solid;
+    width: 350px;
+  }
+
+#delete {
+	padding-right: 57px;
+    padding-bottom: 26px;
+    background-repeat: no-repeat;
+    border: none;
+    position: relative;
+    left: 13px;
+    cursor: pointer;
+    background-size: 66px 26px;
+    border-radius: 3px;
+}
+
+#paginate {
+  margin-top: 30px;
+  margin-left: 300px; }
+
+.btn-group {
+  position: relative;
+  right: 141px;
+}
+
+.btn-group .button {
+  display: inline-block;
+  float: left;
+  border: none;
+  text-decoration: none;
+  font-size: 10px; }
+
+.btn-group button span {
+    position: relative;
+    right: 10px;
+    top: 4px;
+    font-size: 12px;
+ }
+  
+
+#paginate #left {
+	padding-left: 38px;
+    padding-bottom: 34px;
+    background-image: url(../img/leftArw.png);
+    background-position-y: 3px;
+    background-position-x: 1px;
+    border-style: solid;
+    border-width: 1.4px;
+    border-color: #d1d0d0;
+    cursor: pointer;
+ }
+
+#paginate #number {
+  padding-left: 25px;
+  padding-bottom: 10px;
+  border-color: #d1d0d0;
+  border-style: solid;
+  border-width: 1.4px;
+  cursor: pointer;
+  color: #41aee1;
+  font-weight: bold;
+  background-color: #fafafa; 
+}
+
+#paginate #number:hover {
+  background-color:#e0dbdb;
+}
+
+#paginate #active {
+	  padding-left: 25px;
+	  padding-bottom: 10px;
+	  border-color: #d1d0d0;
+	  border-style: solid;
+	  border-width: 1.4px;
+	  cursor: pointer;
+	  color: #41aee1;
+	  font-weight: bold;
+	  background-color:#e4e0e0;
+}
+
+#paginate #right {
+	padding-right: 38px;
+    padding-bottom: 34px;
+    background-image: url(../img/rightArw.png);
+    background-position-y: 2px;
+    background-position-x: 1px;
+    border-color: #d1d0d0;
+    border-style: solid;
+    border-width: 1.4px;
+    cursor: pointer;
+  }
+
+#paginate img {
+  cursor: pointer; }
+
+.formfill {
+  margin-left: 160px;
+  clear: both; }
+
+.formfill form input {
+  margin-top: 5px;
+  font-size: 13px; }
+
+.formfill form textarea {
+  margin-top: 5px; }
+
+#fname {
+  width: 370px; }
+
+.formfill button {
+  background-color: #3b99e6;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  cursor: pointer; }
+
+.formfill label {
+  font-size: 13px; 
+ }
+ 
+ #fname:focus {
+ 	background-color: yellow;
+ }
+ 
+ #errorReport {
+ 	font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+ 	color: red;
+	font-size: 0.8em;
+    font-weight: 500;
+ }
+ 
+ .configField {
+	margin: 30px;
+    width: 300px;
+ }
+ 
+ .conFigSubmitButton {
+    background-color: #60abeb;
+    color: white;
+    border-radius: 2px;
+    border-style: hidden;
+    padding: 3px 13px 4px 13px;
+    font-weight: 500;
+ }
